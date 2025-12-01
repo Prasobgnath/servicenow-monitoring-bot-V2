@@ -1,0 +1,15 @@
+# Python requirements for INC Monitoring Bot
+# Install using: pip install -r requirements.txt
+
+# Excel file handling
+openpyxl
+pandas
+
+# Fuzzy string matching for scope detection
+fuzzywuzzy
+python-Levenshtein
+# Selenium for browser automation
+selenium
+
+# Note: winsound is built-in for Windows, no installation needed
+# Note: chromedriver should be in PATH or same directory as script
