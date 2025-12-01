@@ -134,7 +134,7 @@ class TicketMonitor:
                     ticket_data.append(display_string)
                     
                     # Process unassigned tickets (check assignment_group)
-                    if "(empty)" in ticket['assignment_group']:
+                    if "(empty)" in ticket['assigned_to']:
                         formatted = format_ticket_for_teams(ticket, scope)
                         
                         # Categorize by priority
